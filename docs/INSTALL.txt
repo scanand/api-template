@@ -1,0 +1,6 @@
+http://localhost:8070/api-template/greeting
+
+Do local build by
+mvn clean install
+
+Then run TOMCAT from api-web, where .war is located in /target folder
