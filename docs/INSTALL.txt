@@ -4,3 +4,9 @@ Do local build by
 mvn clean install
 
 Then run TOMCAT from api-web, where .war is located in /target folder
+
+Next Steps
+-Make Maven Build working
+--cargo plugin configuration
+--debugging the app
+-Fix all compile time errors

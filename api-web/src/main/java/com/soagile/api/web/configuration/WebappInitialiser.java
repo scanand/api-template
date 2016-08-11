@@ -8,9 +8,7 @@ import org.springframework.web.servlet.DispatcherServlet;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletRegistration;
 
-/**
- * Created by BMGTS on 24/02/2016.
- */
+
 public class WebappInitialiser implements WebApplicationInitializer {
 
     @Override
@@ -33,8 +31,7 @@ public class WebappInitialiser implements WebApplicationInitializer {
         dispatcher.addMapping("/");
     }
 
-//    @Override
-//    protected String[] getServletMappings()  {
+//    @Override    protected String[] getServletMappings()  {
 //        return new String[]{"/"};
 //    }
 //
